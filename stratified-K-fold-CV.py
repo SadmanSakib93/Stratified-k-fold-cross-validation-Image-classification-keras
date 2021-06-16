@@ -89,7 +89,7 @@ X=np.asarray(X)
 Y=np.asarray(Y)
 
 
-# learning rate
+# Note that, this model structure is a very basic one. To achieve good performance, you should change the model structure and hyperparameters according to your needs and data.
 batch_size = 1
 epoch=500
 activationFunction='relu'
