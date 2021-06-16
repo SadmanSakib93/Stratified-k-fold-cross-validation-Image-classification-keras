@@ -117,7 +117,7 @@ def getModel():
     model.add(Dropout(0.1))
     model.add(Dense(16, activation=activationFunction))
     model.add(Dropout(0.1))
-    model.add(Dense(3, activation='softmax')) 
+    model.add(Dense(len(classLabels), activation='softmax')) 
     
     model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
     
